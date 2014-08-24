@@ -15,9 +15,11 @@ int main()
     float cm_to_in = 2.54;
     
     char the_w;
+    the_w = 'W';
 
-    // insert code here...
-    printf("Hello, World!\n");
+    printf("%d days in a week.\n", days_in_a_week);
+    printf("%f cm per in.\n", cm_to_in);
+    printf("The %c is a cool hotel.\n", the_w);
     return 0;
 }
 
