@@ -10,19 +10,9 @@
 
 @implementation Sphere
 
--(void)setRadius:(float)radius { // Setter for radius
-    _radius = radius;
-}
-
--(float)radius {   // Getter for radius
-    return _radius;
-}
-
--(void)setCenter:(NSArray *)center { // Setter for center
+-(void)setCenter:(NSArray *)center radius:(float)radius {
     _center = center;
-}
--(NSArray *)center { // Getter for center
-    return _center;
+    _radius = radius;
 }
 
 @end
