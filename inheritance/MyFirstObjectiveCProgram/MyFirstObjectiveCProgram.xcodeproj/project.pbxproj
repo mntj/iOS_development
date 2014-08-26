@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0439C45319ABDF6E00E43B62 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439C45219ABDF6E00E43B62 /* Shape.m */; };
 		0439C45619ABDFBE00E43B62 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439C45519ABDFBE00E43B62 /* Circle.m */; };
+		0439C45919AC117100E43B62 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439C45819AC117100E43B62 /* Button.m */; };
+		0439C45C19AC126300E43B62 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439C45B19AC126300E43B62 /* Rectangle.m */; };
 		31B705E117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		31B7060017F473B800CACEA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705FF17F473B800CACEA7 /* XCTest.framework */; };
@@ -30,6 +32,10 @@
 		0439C45219ABDF6E00E43B62 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		0439C45419ABDFBE00E43B62 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		0439C45519ABDFBE00E43B62 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		0439C45719AC117100E43B62 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		0439C45819AC117100E43B62 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		0439C45A19AC126300E43B62 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		0439C45B19AC126300E43B62 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		31B705DD17F473B800CACEA7 /* MyFirstObjectiveCProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstObjectiveCProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B705E017F473B800CACEA7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		31B705E317F473B800CACEA7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -110,6 +116,10 @@
 				0439C45219ABDF6E00E43B62 /* Shape.m */,
 				0439C45419ABDFBE00E43B62 /* Circle.h */,
 				0439C45519ABDFBE00E43B62 /* Circle.m */,
+				0439C45719AC117100E43B62 /* Button.h */,
+				0439C45819AC117100E43B62 /* Button.m */,
+				0439C45A19AC126300E43B62 /* Rectangle.h */,
+				0439C45B19AC126300E43B62 /* Rectangle.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -219,6 +229,8 @@
 				0439C45619ABDFBE00E43B62 /* Circle.m in Sources */,
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
 				0439C45319ABDF6E00E43B62 /* Shape.m in Sources */,
+				0439C45919AC117100E43B62 /* Button.m in Sources */,
+				0439C45C19AC126300E43B62 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

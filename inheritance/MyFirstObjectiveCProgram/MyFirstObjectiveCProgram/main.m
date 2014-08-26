@@ -9,14 +9,22 @@
 #import <Cocoa/Cocoa.h>
 #import "Shape.h"
 #import "Circle.h"
+#import "Rectangle.h"
+#import "Button.h"
 
 int main()
 {
-    Shape *shape = [[Shape alloc] init]; // Allocates memory and initializes it
-    NSLog(@"shape area %f", [shape area]);
     
-    Circle *round = [[Circle alloc] init];
-    round.radius = 25;
-    NSLog(@"circle area %f", [round area]);
+    Circle *circle = [[Circle alloc] init];
+    NSLog(@"circle area %f", [circle area]);
+    
+    Button *roundButton = [[Button alloc] init];
+    roundButton.shape = circle;
+    
+    Rectangle *square = [[Rectangle alloc] init];
+    
+    Button *squareButton = [[Button alloc] init];
+    squareButton.shape = square;
+    
     return 0;
 }
