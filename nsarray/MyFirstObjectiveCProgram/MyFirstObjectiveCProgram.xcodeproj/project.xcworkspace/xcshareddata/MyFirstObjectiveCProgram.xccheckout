@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AB22AEA1-8280-4555-9E2C-0D957F81DBD2</string>
+	<string>293E8B50-5DF6-43ED-AF47-24C3AD4555A4</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyFirstObjectiveCProgram</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>ssh://github.com/mntj/iOS_development.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>nsstring/MyFirstObjectiveCProgram/MyFirstObjectiveCProgram.xcodeproj/project.xcworkspace</string>
+	<string>nsarray/MyFirstObjectiveCProgram/MyFirstObjectiveCProgram.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>64EB7771-533F-4A45-8086-D741B990774F</key>
